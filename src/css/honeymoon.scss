@@ -49,4 +49,47 @@
 .destinations__container {
   height: 360px;
   width: 32%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.image {
+  height: 85%;
+  width: 60%;
+  background-position: center;
+  background-size: cover;
+}
+
+.destinations__container__image1 {
+  background-image: url('../img/honeymoon1.png');
+}
+
+.destinations__container__image2 {
+  background-image: url('../img/honeymoon2.png');
+}
+
+.destinations__container__image3 {
+  background-image: url('../img/honeymoon3.png');
+}
+
+.destinations__container__description {
+  height: 85%;
+  margin-left: 20px;
+}
+
+.description__headline {
+  font-family: "OpenSans semibold", sans-serif;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.description__price {
+  font-family: "OpenSans bold", sans-serif;
+  font-size: 24px;
+  color: yellow;
+  margin-bottom: 15px;
+}
+
+.description__time {
+  font-size: 16px;
 }

@@ -1,8 +1,5 @@
 import React, { Fragment } from 'react';
 import styles from './css/popularPlaces.min.css';
-import place1 from './img/places_img1.png';
-import place2 from './img/places_img2.png';
-import place3 from './img/places_img3.png';
 
 export default class PopularPlaces extends React.Component {
 

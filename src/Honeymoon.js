@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import styles from './css/honeymoon.min.css'
+import styles from './css/honeymoon.min.css';
 
 export default function Honeymoon() {
   return (
@@ -13,16 +13,25 @@ export default function Honeymoon() {
         </div>
         <div className={styles.destinations}>
           <div className={styles.destinations__container}>
-            <div className={styles.destinations__container__image}></div>
-            <div className={styles.destinations__container__description}></div>
+            <div className={[styles.destinations__container__image1, styles.image].join(' ')}></div>
+            <div className={styles.destinations__container__description}><p
+              className={styles.description__headline}>Switzerland</p><br />
+              <p className={styles.description__price}>500$</p><br />
+              <p className={styles.description__time}>2 days 2 nights</p></div>
           </div>
           <div className={styles.destinations__container}>
-            <div className={styles.destinations__container__image}></div>
-            <div className={styles.destinations__container__description}></div>
+            <div className={[styles.destinations__container__image2, styles.image].join(' ')}></div>
+            <div className={styles.destinations__container__description}><p
+              className={styles.description__headline}>Switzerland</p><br />
+              <p className={styles.description__price}>500$</p><br />
+              <p className={styles.description__time}>2 days 2 nights</p></div>
           </div>
           <div className={styles.destinations__container}>
-            <div className={styles.destinations__container__image}></div>
-            <div className={styles.destinations__container__description}></div>
+            <div className={[styles.destinations__container__image3, styles.image].join(' ')}></div>
+            <div className={styles.destinations__container__description}><p
+              className={styles.description__headline}>Switzerland</p><br />
+              <p className={styles.description__price}>500$</p><br />
+              <p className={styles.description__time}>2 days 2 nights</p></div>
           </div>
         </div>
       </div>
